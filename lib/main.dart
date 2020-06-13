@@ -18,7 +18,15 @@ class MyApp extends StatelessWidget {
               CircleAvatar(
                 radius: 50,
                 backgroundImage: AssetImage('assets/images/profile.jpg'),
-              )
+              ),
+              Text(
+                'Aldrick A. Bonaobra',
+                style: TextStyle(
+                  fontSize: 40.0,
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold, 
+                ),
+              ),
             ],
           )
         ),
