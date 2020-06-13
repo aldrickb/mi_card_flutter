@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:clipboard_manager/clipboard_manager.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 
 void main() {
   runApp(
@@ -50,7 +52,16 @@ class MyApp extends StatelessWidget {
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
                 child: InkWell(
                   onTap: () {
-
+                    ClipboardManager.copyToClipBoard("hello@aldrickb.com").then((result) {
+                      Fluttertoast.showToast(
+                        msg: "Email address copied to clipboard",
+                        toastLength: Toast.LENGTH_SHORT,
+                        gravity: ToastGravity.BOTTOM,
+                        timeInSecForIosWeb: 1,
+                        textColor: Colors.white,
+                        fontSize: 16.0
+                      );
+                    });
                   },
                   child: ListTile(
                     leading: Icon(
@@ -72,7 +83,16 @@ class MyApp extends StatelessWidget {
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
                 child: InkWell(
                   onTap: () {
-                    
+                    ClipboardManager.copyToClipBoard("aldrickb.com").then((result) {
+                      Fluttertoast.showToast(
+                        msg: "Web address copied to clipboard",
+                        toastLength: Toast.LENGTH_SHORT,
+                        gravity: ToastGravity.BOTTOM,
+                        timeInSecForIosWeb: 1,
+                        textColor: Colors.white,
+                        fontSize: 16.0
+                      );
+                    });
                   },
                   child: ListTile(
                     leading: Icon(
