@@ -23,3 +23,40 @@ flutter:
     - family: Pacifico
       fonts:
         - asset: assets/fonts/pacifico/Pacifico-Regular.ttf
+    - family: SourceSansPro-Black
+      fonts:
+        - asset: assets/fonts/source_sans_pro/SourceSansPro-Black.ttf
+    - family: SourceSansPro-BlackItalic
+      fonts:
+        - asset: assets/fonts/source_sans_pro/SourceSansPro-BlackItalic.ttf
+    - family: SourceSansPro-Bold
+      fonts:
+        - asset: assets/fonts/source_sans_pro/SourceSansPro-Bold.ttf
+    - family: SourceSansPro-BoldItalic
+      fonts:
+        - asset: assets/fonts/source_sans_pro/SourceSansPro-BoldItalic.ttf
+    - family: SourceSansPro-ExtraLight
+      fonts:
+        - asset: assets/fonts/source_sans_pro/SourceSansPro-ExtraLight.ttf
+    - family: SourceSansPro-ExtraLightItalic
+      fonts:
+        - asset: assets/fonts/source_sans_pro/SourceSansPro-ExtraLightItalic.ttf
+    - family: SourceSansPro-Italic
+      fonts:
+        - asset: assets/fonts/source_sans_pro/SourceSansPro-Italic.ttf
+    - family: SourceSansPro-Light
+      fonts:
+        - asset: assets/fonts/source_sans_pro/SourceSansPro-Light.ttf
+    - family: SourceSansPro-LightItalic
+      fonts:
+        - asset: assets/fonts/source_sans_pro/SourceSansPro-LightItalic.ttf
+    - family: SourceSansPro-Regular
+      fonts:
+        - asset: assets/fonts/source_sans_pro/SourceSansPro-Regular.ttf
+    - family: SourceSansPro-SemiBold
+      fonts:
+        - asset: assets/fonts/source_sans_pro/SourceSansPro-SemiBold.ttf
+    - family: SourceSansPro-SemiBoldItalic
+      fonts:
+        - asset: assets/fonts/source_sans_pro/SourceSansPro-SemiBoldItalic.ttf
+    
