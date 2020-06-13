@@ -80,6 +80,23 @@ class MyApp extends StatelessWidget {
                   ),
                 )
               ),
+              Card(
+                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+                child: ListTile(
+                  leading: Icon(
+                    Icons.public,
+                    color: Colors.lightBlue
+                  ),
+                  title: Text(
+                    'aldrickb.com',
+                    style: TextStyle(
+                      fontSize: 16.0,
+                      color: Colors.lightBlue.shade900,
+                      fontFamily: 'SourceSansPro-Regular'
+                    )
+                  ),
+                )
+              )
             ],
           )
         ),
