@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.teal,
+        backgroundColor: Colors.lightBlue,
         body: SafeArea(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
                 'SOFTWARE DEVELOPER',
                 style: TextStyle(
                   fontFamily: 'SourceSansPro-Regular',
-                  color: Colors.teal.shade100,
+                  color: Colors.lightBlue.shade100,
                   fontSize: 20.0,
                   letterSpacing: 2.5,
                   fontWeight: FontWeight.bold
@@ -43,7 +43,7 @@ class MyApp extends StatelessWidget {
                 height: 20.0,
                 width: 150.0,
                 child: Divider(
-                  color: Colors.teal.shade100,
+                  color: Colors.lightBlue.shade100,
                 )
               ),
               Card(
@@ -51,13 +51,13 @@ class MyApp extends StatelessWidget {
                 child: ListTile(
                   leading: Icon(
                     Icons.phone,
-                    color: Colors.teal
+                    color: Colors.lightBlue
                   ),
                   title: Text(
                     '+63 939 512 7793',
                     style: TextStyle(
                       fontSize: 16.0,
-                      color: Colors.teal.shade900,
+                      color: Colors.lightBlue.shade900,
                       fontFamily: 'SourceSansPro-Regular'
                     )
                   ),
@@ -68,13 +68,13 @@ class MyApp extends StatelessWidget {
                 child: ListTile(
                   leading: Icon(
                     Icons.email,
-                    color: Colors.teal
+                    color: Colors.lightBlue
                   ),
                   title: Text(
                     'hello@aldrickb.com',
                     style: TextStyle(
                       fontSize: 16.0,
-                      color: Colors.teal.shade900,
+                      color: Colors.lightBlue.shade900,
                       fontFamily: 'SourceSansPro-Regular'
                     )
                   ),
